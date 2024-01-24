@@ -11,12 +11,13 @@ body{
     background: var(--colorPrimary);
 }
 
-.contenedor{
-    border: 3px solid #000;
-    display: inline;
-    width: 50%;
-    position: absolute;
+.contenedorPrincipal{
+ 
+    border: 5px solid var(--border-primary);
+    width: 70%;
+    height: 90vh;
     margin: auto;
+    position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
@@ -24,17 +25,79 @@ body{
 
 }
 
-.box{
-    width: 150px;
-    height: 150px;
-    margin-bottom: 10px;
-    background: var(--bg-primary);
-    color: #fff;
+.contenedor{
+    border: 3px dashed var(--border-secondary);    
+    gap: 5px;
+}
+
+
+.contenedor:nth-child(1){
+    display: inline-block;
+    width: 30rem;
+    height: 15rem;
+    position: absolute;
+    margin: 20px 100px;
+    left: 0;
     
 }
 
-.box:nth-child(3){
-    background: red;
+
+.contenedor:nth-child(2){
+    display: inline-block;
+    width: 30rem;
+    height: 15rem;
+    position: absolute;
+    right: 0;
+    margin: 20px 100px;
+}
+
+.contenedor:nth-child(3){
+    width: 30rem;
+    height: 15rem;
     position: absolute;
     top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+
+}
+
+.contenedor:nth-child(4){
+    display: inline-block;
+    width: 30rem;
+    height: 15rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 20px auto;
+
+}
+
+.caja{
+    width: 50px;
+    height: 50px;
+    background: var(--bg-primary);
+    
+}
+
+.caja:nth-child(1){
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+.caja:nth-child(2){
+    margin: auto;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+.caja:nth-child(3){
+    margin: 50px 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
 }
