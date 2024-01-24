@@ -26,35 +26,27 @@ body{
 }
 
 .contenedor{
-    border: 3px dashed var(--border-secondary);    
-    gap: 5px;
+    border: 3px dashed var(--border-secondary);
+    display: inline-block;
+    width: 25rem;
+    height: 25vh;
+    position: absolute;
 }
 
 
 .contenedor:nth-child(1){
-    display: inline-block;
-    width: 30rem;
-    height: 15rem;
-    position: absolute;
-    margin: 20px 100px;
+    margin: 3vh 2rem;
     left: 0;
     
 }
 
 
 .contenedor:nth-child(2){
-    display: inline-block;
-    width: 30rem;
-    height: 15rem;
-    position: absolute;
     right: 0;
-    margin: 20px 100px;
+    margin: 3vh 2rem;
 }
 
 .contenedor:nth-child(3){
-    width: 30rem;
-    height: 15rem;
-    position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
@@ -64,40 +56,50 @@ body{
 }
 
 .contenedor:nth-child(4){
-    display: inline-block;
-    width: 30rem;
-    height: 15rem;
-    position: absolute;
     bottom: 0;
     right: 0;
     left: 0;
-    margin: 20px auto;
+    margin: 3vh auto;
 
 }
 
 .caja{
-    width: 50px;
-    height: 50px;
+    width: 3.5rem;
+    height: 8vh;
     background: var(--bg-primary);
+    border: 1px solid var(--border-third);
+    position: absolute;
     
 }
 
-.caja:nth-child(1){
+.caja1{
     margin: auto;
     top: 0;
     bottom: 0;
     right: 0;
-    position: absolute;
+    
 }
-.caja:nth-child(2){
+.caja2:nth-child(1){
     margin: auto;
     bottom: 0;
     left: 0;
-    position: absolute;
 }
-.caja:nth-child(3){
-    margin: 50px 0;
+.caja2:nth-child(2){
+    margin: auto 3.5rem;
     bottom: 0;
     left: 0;
-    position: absolute;
+}
+
+.caja3{
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.caja4:nth-child(2){
+    margin: auto;
+    bottom: 0;
+    right: 0;
+
 }
