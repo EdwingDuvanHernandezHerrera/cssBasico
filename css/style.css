@@ -92,9 +92,16 @@ body{
 
 .caja3{
     margin: auto;
-    top: 0;
+    bottom: 0;
     left: 0;
-    right: 0;
+    
+}
+
+.caja4:nth-child(1){
+    margin: auto;
+    bottom: 0;
+    left: 0;
+
 }
 
 .caja4:nth-child(2){
